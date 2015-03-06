@@ -1,0 +1,401 @@
+body h1, body h2, body h3, body h4, body h5, body h6, body p, body .btn, body form, body i, body ul, body span {
+  font-family: 'Open Sans', sans-serif; }
+
+h2 {
+  font-size: 3.3em;
+  color: #00796B; }
+
+h3 {
+  color: #00796B;
+  font-size: 2.5em; }
+
+h4 {
+  font-size: 1.5em;
+  color: #212121;
+  line-height: 1.4em; }
+
+h5 {
+  font-size: 1.2em; }
+
+p {
+  color: #212121; }
+
+i {
+  color: #00796B; }
+
+a {
+  color: #00796B; }
+  a:hover, a:visited, a:focus {
+    color: #00796B; }
+
+hr {
+  border-top: 1px solid #009688; }
+
+.badge {
+  color: #eee;
+  font-weight: 300; }
+
+.label {
+  color: #eee; }
+
+.btn-teal {
+  background-color: #009688;
+  border-color: #009688;
+  color: #eee; }
+
+.btn-teal:hover,
+.btn-teal:focus,
+.btn-teal:active,
+.btn-teal.active {
+  background-color: #007d71;
+  border-color: #00635a;
+  color: #eee; }
+
+.btn-teal.disabled:hover,
+.btn-teal.disabled:focus,
+.btn-teal.disabled:active,
+.btn-teal.disabled.active,
+.btn-teal[disabled]:hover,
+.btn-teal[disabled]:focus,
+.btn-teal[disabled]:active,
+.btn-teal[disabled].active,
+fieldset[disabled] .btn-teal:hover,
+fieldset[disabled] .btn-teal:focus,
+fieldset[disabled] .btn-teal:active,
+fieldset[disabled] .btn-teal.active {
+  background-color: #009688;
+  border-color: #009688; }
+
+.btn-bluegrey {
+  background-color: #607D8B;
+  border-color: #607D8B;
+  color: #eee; }
+
+.btn-bluegrey:hover,
+.btn-bluegrey:focus,
+.btn-bluegrey:active,
+.btn-bluegrey.active {
+  background-color: #566f7c;
+  border-color: #4b626d;
+  color: #eee; }
+
+.btn-bluegrey.disabled:hover,
+.btn-bluegrey.disabled:focus,
+.btn-bluegrey.disabled:active,
+.btn-bluegrey.disabled.active,
+.btn-bluegrey[disabled]:hover,
+.btn-bluegrey[disabled]:focus,
+.btn-bluegrey[disabled]:active,
+.btn-bluegrey[disabled].active,
+fieldset[disabled] .btn-bluegrey:hover,
+fieldset[disabled] .btn-bluegrey:focus,
+fieldset[disabled] .btn-bluegrey:active,
+fieldset[disabled] .btn-bluegrey.active {
+  background-color: #607D8B;
+  border-color: #607D8B; }
+
+#location {
+  color: #00796B; }
+
+.navbar {
+  border: 0px;
+  background-color: #222;
+  position: absolute;
+  top: 100%;
+  right: 5%;
+  width: 110px;
+  z-index: 999;
+  border-radius: 0px; }
+  .navbar .navbar-collapse {
+    padding: 0px;
+    max-height: none; }
+  .navbar .navbar-nav {
+    float: none; }
+  .navbar .nav > li {
+    display: block;
+    float: none;
+    height: 80px; }
+
+.navbar-nav {
+  margin: 0px; }
+
+.navbar-header {
+  float: left;
+  width: 100%; }
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:visited {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: #22A39F;
+  color: #eee; }
+
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a:focus {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #eee; }
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #888; }
+
+.fixed .navbar {
+  position: fixed;
+  top: 60px; }
+
+#top {
+  min-height: 500px;
+  background-image: url("images/background-image.jpg");
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  #top h1 {
+    padding-top: 150px;
+    color: #eee;
+    font-weight: 500;
+    font-size: 5.8em; }
+  #top hr {
+    max-width: 50%;
+    border-top: 1px solid #eee; }
+  #top h2 {
+    color: #eee;
+    font-size: 2.9em; }
+  #top .scroll-down {
+    height: 80px;
+    width: 110px;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    right: 5%;
+    background-color: #222;
+    text-align: center;
+    z-index: 6; }
+    #top .scroll-down .glyphicon {
+      font-size: 30px;
+      padding-top: 20px;
+      color: #eee; }
+      #top .scroll-down .glyphicon a {
+        color: #eee; }
+        #top .scroll-down .glyphicon a :hover {
+          color: #eee;
+          text-decoration: none; }
+
+#profile {
+  background-color: #eee;
+  padding-top: 80px;
+  padding-bottom: 125px; }
+  #profile hr {
+    margin-top: 30px;
+    margin-bottom: 50px; }
+  #profile h4 {
+    padding-top: 12px; }
+  #profile #headshot {
+    margin-top: 5px; }
+
+#experiences {
+  background-color: #CFC8B2;
+  padding-top: 80px;
+  padding-bottom: 125px; }
+  #experiences hr {
+    margin-top: 30px;
+    margin-bottom: 30px; }
+  #experiences h4 {
+    padding-top: 12px; }
+  #experiences h3 {
+    padding-bottom: 15px; }
+  #experiences #prime {
+    font-size: 1.1em; }
+  #experiences #title {
+    font-weight: 700; }
+
+#abilities {
+  background-color: #eee;
+  padding-top: 80px;
+  padding-bottom: 125px; }
+  #abilities hr {
+    margin-top: 30px;
+    margin-bottom: 30px; }
+
+#projects {
+  background-color: #CFC8B2;
+  padding-top: 80px;
+  padding-bottom: 125px; }
+  #projects hr {
+    margin-top: 30px;
+    margin-bottom: 30px; }
+  #projects button {
+    margin-bottom: 5px; }
+  #projects .project-item {
+    height: 150px;
+    width: 150px;
+    border-radius: 6px;
+    margin-right: 15px;
+    margin-bottom: 15px; }
+  #projects #matchbakers:hover, #projects #mb-website:hover, #projects #mb-video:hover, #projects #autodesk:hover, #projects #junk:hover,
+  #projects #junk-after:hover, #projects #nycc:hover, #projects #mb-ks:hover, #projects #hexapod:hover, #projects #personal-website:hover,
+  #projects #ck:hover, #projects #tbbt-8:hover, #projects #tbbt-7:hover, #projects #tbbt-6:hover, #projects #tbbt-5:hover, #projects #tbbt-4:hover, #projects #tbbt-3:hover,
+  #projects #tbbt-2:hover, #projects #tbbt-1:hover, #projects #jpeo-plan:hover, #projects #lss:hover, #projects #pom:hover, #projects #dbf:hover, #projects #disney:hover,
+  #projects #efv:hover, #projects #dfi:hover, #projects #selfie:hover {
+    cursor: pointer; }
+  #projects #matchbakers {
+    background-image: url("images/projects-matchbakers.jpg"); }
+  #projects #mb-website {
+    background-image: url("images/projects-mb-website.jpg"); }
+  #projects #mb-video {
+    background-image: url("images/projects-mb-video.jpg"); }
+  #projects #autodesk {
+    background-image: url("images/projects-autodesk.jpg"); }
+  #projects #junk {
+    background-image: url("images/projects-junk.jpg"); }
+  #projects #junk-after {
+    background-image: url("images/projects-junk-after.jpg"); }
+  #projects #nycc {
+    background-image: url("images/projects-nycc.jpg"); }
+  #projects #mb-ks {
+    background-image: url("images/projects-mb-ks.jpg"); }
+  #projects #hexapod {
+    background-image: url("images/projects-hexapod.jpg"); }
+  #projects #selfie {
+    background-image: url("images/projects-selfie.jpg"); }
+  #projects #personal-website {
+    background-image: url("images/projects-personal-website.jpg"); }
+  #projects #ck {
+    background-image: url("images/projects-ck.jpg"); }
+  #projects #tbbt-8 {
+    background-image: url("images/projects-tbbt-8.jpg"); }
+  #projects #tbbt-7 {
+    background-image: url("images/projects-tbbt-7.jpg"); }
+  #projects #tbbt-6 {
+    background-image: url("images/projects-tbbt-6.jpg"); }
+  #projects #tbbt-5 {
+    background-image: url("images/projects-tbbt-5.jpg"); }
+  #projects #tbbt-4 {
+    background-image: url("images/projects-tbbt-4.jpg"); }
+  #projects #tbbt-3 {
+    background-image: url("images/projects-tbbt-3.jpg"); }
+  #projects #tbbt-2 {
+    background-image: url("images/projects-tbbt-2.jpg"); }
+  #projects #tbbt-1 {
+    background-image: url("images/projects-tbbt-1.jpg"); }
+  #projects #jpeo-plan {
+    background-image: url("images/projects-jpeo-plan.jpg"); }
+  #projects #lss {
+    background-image: url("images/projects-lss.jpg"); }
+  #projects #pom {
+    background-image: url("images/projects-pom.jpg"); }
+  #projects #dbf {
+    background-image: url("images/projects-dbf.jpg"); }
+  #projects #disney {
+    background-image: url("images/projects-disney.jpg"); }
+  #projects #efv {
+    background-image: url("images/projects-efv.jpg"); }
+  #projects #dfi {
+    background-image: url("images/projects-dfi.jpg"); }
+
+#contact {
+  background-color: #434242;
+  padding-top: 80px;
+  padding-bottom: 125px; }
+  #contact h2, #contact i, #contact h5, #contact p {
+    color: #eee; }
+  #contact h4 {
+    color: #727878; }
+  #contact .fa-stack {
+    margin-right: 10px; }
+  #contact .fa-inverse {
+    color: #434242; }
+  #contact .fa-heart {
+    color: #E23F3F; }
+  #contact .fa-coffee {
+    color: #C06F2C; }
+  #contact hr {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-top: 1px solid #888; }
+  #contact a {
+    color: #fff;
+    opacity: 0.6; }
+    #contact a:hover {
+      color: #fff;
+      opacity: 1;
+      text-decoration: none; }
+    #contact a:visited, #contact a:focus {
+      color: #fff;
+      text-decoration: none; }
+
+/* Phones only (767px and less) */
+@media (max-width: 767px) {
+  #projects .button-group {
+    text-align: center; }
+
+  #top h1 {
+    padding-top: 75px; }
+  #top .scroll-down {
+    width: 100%;
+    right: 0px; }
+
+  #experiences #title {
+    font-weight: 300; }
+
+  .navbar {
+    left: 0px;
+    width: 100%; }
+
+  .navbar .navbar-collapse {
+    margin-top: 50px; }
+
+  .navbar .nav > li {
+    height: 60px; }
+
+  .navbar .nav > li a,
+  .navbar .nav > li a:focus {
+    height: 60px;
+    padding-top: 20px; }
+
+  .navbar-default .navbar-nav > .active > a,
+  .navbar-default .navbar-nav > .active > a:hover {
+    padding-top: 20px; }
+
+  .fixed .navbar {
+    position: fixed;
+    top: 0px; }
+
+  #projects .project {
+    width: 330px; } }
+/* Small devices only (tablets, 768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  #projects .project {
+    width: 495px; } }
+/* Small devices and Phones (less than 991px) */
+@media (max-width: 991px) {
+  #profile #sub-profile {
+    text-align: center; }
+  #profile img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 250px; } }
+/* Small devices (tablets, 768px and up) */
+/* Medium devices only (desktops, 992px to 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  #projects .project {
+    width: 660px; } }
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #profile img {
+    width: 100%;
+    max-width: 300px; } }
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #projects .project {
+    width: 825px; } }
+
+/*# sourceMappingURL=stylesheet.css.map */
