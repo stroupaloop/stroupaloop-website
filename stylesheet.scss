@@ -392,17 +392,19 @@ fieldset[disabled] .btn-bluegrey.active {
 		margin-bottom:50px;
 		border-top: 1px solid #888;
 	}
-	a{
-		color:#fff;
-		opacity:0.6;
-		&:hover{
-			color:#fff;
-			opacity:1;
-			text-decoration:none;
-		}
-		&:visited, &:focus{
-			color:#fff;
-			text-decoration:none;
+	#outlet{
+		a{
+			color:#eee;
+			opacity:0.6;
+			&:hover{
+				color:#fff;
+				opacity:1;
+				text-decoration:none;
+			}
+			&:visited, &:focus{
+				color:#fff;
+				text-decoration:none;
+			}
 		}
 	}
 }
