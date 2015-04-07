@@ -239,7 +239,7 @@ function Project(projectname) {
 			'<p><a href="http://picturesofpeopletakingselfies.com" target="_blank"><img src="images/projects-selfie-full.png" class="img-responsive"></a></p>'
 			break;
 		case 'personal-website':
-			return '<p><strong>Personal website v1</strong><br/><a href="http://stroupaloop.herokuapps.com" target="_blank">stroupaloop.com</a></p>' +
+			return '<p><strong>Personal website v1</strong><br/><a href="http://stroupaloop.herokuapp.com" target="_blank">stroupaloop.com</a></p>' +
 			'<p><a href="http://stroupaloop.herokuapps.com" target="_blank"><img src="images/projects-personal-website-full.png" class="img-responsive"></a></p>'
 			break;
 		case 'ck':
