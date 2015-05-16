@@ -1,0 +1,11 @@
+id: hexapod
+name: Project Hexapod
+company: Project Hexapod
+description: "Project Hexapod is a team of roboticists, engineers, designers, and fabricators who are building a 4,000 pound, 18 foot diameter rideable 6-legged robot and release the designs to the world. We don’t just want to build a giant robot, we want to enable others to build giant robots."
+link: http://projecthexapod.com
+media_type: video
+media: "https://www.kickstarter.com/projects/projecthexapod/stompy-the-giant-rideable-walking-robot-0/widget/video.html"
+filters:
+  - fluidpower
+  - engineering
+  - consulting

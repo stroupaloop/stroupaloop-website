@@ -1,0 +1,11 @@
+id: dfi
+name: DFI Oil Rigging and Drilling
+company: "BarDyne, Inc."
+description: "Secured a $100k, one year international consulting project for DFI (a Canadian based oil rigging company), managing a project team to perform:<ul><li>On-site analysis and review of several fluid power systems, designs, components, and issues</li><li>Dynamic modeling and simulation of systems and subsystems</li><li>Presentation of test results and recommendations</li><li>Implementation of solutions and follow-on validation</li></ul>"
+link: http://dfi.ca
+media_type: img
+media: dfi-full.png
+filters:
+  - fluidpower
+  - consulting
+  - engineering

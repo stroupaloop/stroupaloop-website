@@ -1,0 +1,9 @@
+id: nycc
+name: New York Comic Con 2014
+company: "MegaBots, Inc."
+description:
+link: http://newyorkcomiccon.com
+media_type: video
+media: "https://www.youtube.com/embed/bJvDIg-4t4M"
+filters:
+  - video

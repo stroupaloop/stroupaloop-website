@@ -1,0 +1,10 @@
+id: tbbt-7
+name: Gated Checkpoint Security System
+company: "The Big Brain Theory: Pure Genius"
+description: "Tasked with designing, fabricating, and delivering a system to automatically detect and prevent unauthorized access at a gated checkpoint. The system was required to be naturally open, meaning the ability to allow authorized vehicles to pass through the system unharmed. Additionally, the system would be measured for g force and damage to the vehicle. The team was given 3 days and $5,000 to complete the project."
+link: http://www.discovery.com/tv-shows/the-big-brain-theory/
+media_type: video
+media: "https://www.youtube.com/embed/L1HkwWjjKsg"
+filters:
+  - engineering
+  - realitytv

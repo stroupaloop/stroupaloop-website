@@ -1,0 +1,10 @@
+id: tbbt-4
+name: Olympian Robot
+company: "The Big Brain Theory: Pure Genius"
+description: "Tasked with designing, fabricating, and delivering a system to compete in three decathlon events (100m dash, javelin throw, and the standing long jump). The metrics were to break the existing Olympic world records for the 100m dash and standing long jump and get as close to the current world record for the javelin throw. The robot was required to be controlled remotely and powered by an on-board energy source. The robot could shed 75% of the original weight for the long jump event. The team was given 5 days and $10,000 to complete the project."
+link: http://www.discovery.com/tv-shows/the-big-brain-theory/
+media_type: video
+media: "https://www.youtube.com/embed/hSiiqnaP1cU"
+filters:
+  - engineering
+  - realitytv

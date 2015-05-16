@@ -1,0 +1,9 @@
+id: mb-website
+name: MegaBots Inc. website
+company: "MegaBots, Inc."
+description:
+link: https://pacific-crag-2074.herokuapp.com/
+media_type: img
+media: mb-website-full.png
+filters:
+  - code

@@ -1,0 +1,9 @@
+id: personal-website
+name: Personal website v1
+company: personal project
+description: The first iteration of my personal website.
+link: http://stroupaloop.herokuapp.com
+media_type: img
+media: personal-website-full.png
+filters:
+  - code

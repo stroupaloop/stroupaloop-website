@@ -1,0 +1,9 @@
+id: selfie
+name: Pictures of People Taking Selfies
+company: personal project
+description: ... pictures of people taking selfies.
+link: http://picturesofpeopletakingselfies.com
+media_type: img
+media: selfie-full.png
+filters:
+  - code

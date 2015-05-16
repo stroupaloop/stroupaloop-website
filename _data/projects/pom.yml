@@ -1,0 +1,10 @@
+id: pom
+name: Program Objective Memorandum
+company: JPEO-CBD
+description: "Developed an in-house auditing software program to support the JPEO-CBD CBDP POM development process. The software allows users to evaluate multiple POM scenarios via builds and simulations, easily access programmatic information, automate tracking of all transactions, compare builds, and generate reports for stakeholder review.<ul><li>Saved over 1,000 man hours per year</li><li>Rapid prototyping and development</li><li>Continuation of updates and support to optimize coding and increase automation</li><li>Published a Standard Operating Procedures for use across the organization</li><li>Coordinated cross-organizational integration into information systems for automatic updates and reconciliation</li></ul>"
+link: https://jpeocbd.osd.mil
+media_type: img
+media: pom-full.png
+filters:
+  - business
+  - code

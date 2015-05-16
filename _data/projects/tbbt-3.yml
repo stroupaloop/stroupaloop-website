@@ -1,0 +1,10 @@
+id: tbbt-3
+name: Environmental Protection Shelter
+company: "The Big Brain Theory: Pure Genius"
+description: "Tasked with designing, fabricating, and delivering a system to protect a human from extreme environmental conditions (gale force winds, >2000F fire exposure, and >1500lbs of a 3 inch diameter water blast). The environmental protection shelter was required to be stored inside a medium sized military duffel bag and be deployed within 5 minutes. The human protected by the shelter had to maintain survivable conditions (oxygen and temperature levels). The team was given 3 days and $4,000 to complete the project."
+link: http://www.discovery.com/tv-shows/the-big-brain-theory/
+media_type: video
+media: "https://www.youtube.com/embed/dz0QBcGmHU0"
+filters:
+  - engineering
+  - realitytv

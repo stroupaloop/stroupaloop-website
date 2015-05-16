@@ -1,0 +1,9 @@
+id: mb-ks
+name: Kickstarter Video
+company: "MegaBots, Inc."
+description:
+link: http://megabots.com
+media_type: video
+media: "https://www.youtube.com/embed/IHmUlEd5H18"
+filters:
+  - video

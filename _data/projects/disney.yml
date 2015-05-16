@@ -1,0 +1,11 @@
+id: disney
+name: Disneyland Resorts California Screamin'
+company: "BarDync, Inc."
+description: "Fluid power consulting project for Disneyland Resorts, performing the following tasks:<ul><li>Collaborated with the Disneyland Resorts engineering team on design and test plans, to include: dynamic modeling and simulation, test components, and routine reports</li><li>Conducted on-site system and component testing</li><li>Prepared and presented a final analysis, report,and recommendation to the Disneyland Resorts engineering team</li></ul>"
+link: http://en.wikipedia.org/wiki/California_Screamin%27
+media_type: video
+media: "https://www.youtube.com/embed/08VwtYdoBhM"
+filters:
+  - fluidpower
+  - consulting
+  - engineering

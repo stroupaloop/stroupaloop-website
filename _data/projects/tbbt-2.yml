@@ -1,0 +1,10 @@
+id: tbbt-2
+name: Missile Defense System
+company: "The Big Brain Theory: Pure Genius"
+description: "Tasked with designing, fabricating, and delivering a system to destroy an incoming projectile with another projectile (no smaller than 1.5 inch in diameter), controlled remotely from within a bunker, and remotely powered. The team was given 5 days and $20,000 to complete the project."
+link: http://www.discovery.com/tv-shows/the-big-brain-theory/
+media_type: video
+media: "https://www.youtube.com/embed/Mh_5Uz8Ibnw"
+filters:
+  - engineering
+  - realitytv

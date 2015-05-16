@@ -1,0 +1,9 @@
+id: junk
+name: Real Life Mech Prototype Destroys Junk Car
+company: "MegaBots, Inc."
+description:
+link: http://megabots.com
+media_type: video
+media: "https://www.youtube.com/embed/KjViDItdp00"
+filters:
+  - video
