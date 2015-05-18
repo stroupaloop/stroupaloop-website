@@ -39,12 +39,12 @@ layout: default
 	<div class="row" id="blog-nav">
 		<div class="col-md-12">
 			<div class="text-center">
-	    	{% if page.next.url %} 
-          <a class="btn btn-default" href="{{page.next.url}}"><i class="fa fa-angle-left"></i> Previous Post</a> 
+				{% if page.previous.url %} 
+          <a class="btn btn-default" href="{{page.previous.url}}"><i class="fa fa-angle-left"></i> Previous Post</a> 
   			{% endif %}
   			<a class="btn btn-default" href="/blog">Blog Home</a>
-  			{% if page.previous.url %} 
-          <a class="btn btn-default" href="{{page.previous.url}}">Next Post <i class="fa fa-angle-right"></i></a> 
+	    	{% if page.next.url %} 
+          <a class="btn btn-default" href="{{page.next.url}}">Next Post <i class="fa fa-angle-right"></i></a>
        	{% endif %} 
       </div>
     </div>
