@@ -3,7 +3,7 @@ name: Giant T-Shirt Missile Launcher Turret @ Autodesk University
 company: "MegaBots, Inc."
 description:
 link: http://au.autodesk.com
-media_type: video
-media: "https://www.youtube.com/embed/mBj8SSVtyCQ"
+media_type: youtube
+media: "mBj8SSVtyCQ"
 filters:
   - video

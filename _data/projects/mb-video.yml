@@ -3,7 +3,7 @@ name: HTML5 website video
 company: "MegaBots, Inc."
 description:
 link: http://megabots.com
-media_type: video
+media_type: vimeo
 media: "https://player.vimeo.com/video/120241149"
 filters:
   - video

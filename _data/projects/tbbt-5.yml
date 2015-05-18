@@ -3,8 +3,8 @@ name: Green Waterfall Elevator
 company: "The Big Brain Theory: Pure Genius"
 description: "Tasked with designing, fabricating, and delivering a system to harness the energy of a waterfall to power a self sustainable elevator. The team was given 4 days and $5,000 to complete the project."
 link: http://www.discovery.com/tv-shows/the-big-brain-theory/
-media_type: video
-media: "https://www.youtube.com/embed/76sRLzfOAjE"
+media_type: youtube
+media: "76sRLzfOAjE"
 filters:
   - engineering
   - realitytv

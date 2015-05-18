@@ -3,7 +3,7 @@ name: Real Life Mech Prototype Destroys Junk Car (After Hours Edition)
 company: "MegaBots, Inc."
 description:
 link: http://megabots.com
-media_type: video
-media: "https://www.youtube.com/embed/BRG6w2kSr7E"
+media_type: youtube
+media: "BRG6w2kSr7E"
 filters:
   - video

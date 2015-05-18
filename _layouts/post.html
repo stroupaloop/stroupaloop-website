@@ -1,15 +1,41 @@
 ---
 layout: default
 ---
-<div class="post">
+<div class="container" id="post">
+	<div class="row">
+		<div class="col-sm-9">
+			<header class="post-header">
+			  <h1 class="post-title">{{ page.title }}</h1>
+			  <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+			</header>
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
-
-  <article class="post-content">
-    {{ content }}
-  </article>
-
+			<article class="post-content">
+			  {{ content }}
+			</article>
+		</div>
+		<div class="col-sm-3 hidden-xs">
+			<h4>Recent Posts</h4>
+		</div>
+	</div>
 </div>
+<div class="container" id="post-footer">
+	<div class="row">
+		<hr/>
+		<div class="col-sm-6">
+			<ul>
+				<li><a href="{{ baseurl }}/blog">All Posts</a></li>
+				<li><a href="{{ baseurl }}">Portfolio &amp; Resume</a></li>
+			</ul>
+		</div>
+		<div class="col-sm-6">
+			<ul class="pull-right">
+				<li><a href="http://github.com/stroupaloop" target="_blank"><i class="fa fa-github fa-2x"></i></a></li>
+				<li><a href="http://twitter.com/stroupaloop" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
+				<li><a href="http://linkedin.com/in/andrewstroup" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></li>
+				<li><a href="http://instagram.com/asianfarmer" target="_blank"><i class="fa fa-instagram fa-2x"></i></a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+{% include footer.html %}

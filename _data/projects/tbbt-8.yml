@@ -3,8 +3,8 @@ name: Portable Deployable Bridge
 company: "The Big Brain Theory: Pure Genius"
 description: "Tasked with designing, fabricating, and delivering a system to safely allow a light duty truck to travel over a 30 foot span. The system was required to be transported and deployed from one side by the same truck, while being within the Gross Vehicle Weight Rating of the truck. The team was given 5 days and $10,000 to complete the project."
 link: http://www.discovery.com/tv-shows/the-big-brain-theory/
-media_type: video
-media: "https://www.youtube.com/embed/Tb_naDUJiEQ"
+media_type: youtube
+media: "Tb_naDUJiEQ"
 filters:
   - engineering
   - realitytv

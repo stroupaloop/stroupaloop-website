@@ -1,10 +1,7 @@
 $(document).ready(function(){
 	$('#top').css('height',$(window).height());
 
-	// $('.project-item').click(function(){
-	// 	var project_name = this.id;
-	// 	$('.modal-body').html(Project(project_name));
-	// });
+	$('.js-lazyYT').lazyYT(); 
 
 	$('.scroll-down').hover(
 		function(){

@@ -3,7 +3,7 @@ name: "Design, Build, Fly"
 company: AIAA
 description: "Oklahoma State University (Team Black) chief engineer in the American Institute of Aeronautics and Astronautics Design, Build, Fly 2009 competition. A cooperative team effort (15 members) requiring conceptual platform design to meet specified mission criteria, development of manufacturing techniques for rapid prototyping and testing, and the execution of performance-rated flights against domestic and international teams.<ul><li>System conceptual design and oversaw construction methods for rapid prototyping</li><li>Verification and validation of subsystems and system (structural modeling and simulation, prototype testing, and avionics optimization and integration)</li><li>Test plan development for flight testing and performance evaluation</li></ul>"
 link: http://aiaadbf.com
-media_type: video
+media_type: vimeo
 media: "https://player.vimeo.com/video/38203714"
 filters:
   - engineering

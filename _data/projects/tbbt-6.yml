@@ -3,8 +3,8 @@ name: Automated Food Machine
 company: "The Big Brain Theory: Pure Genius"
 description: "Tasked with designing, fabricating, and delivering a system to automate the preparation, cooking, and delivery of food for the masses. The team was given 5 days and $6,000 to complete the project."
 link: http://www.discovery.com/tv-shows/the-big-brain-theory/
-media_type: video
-media: "https://www.youtube.com/embed/OC-efvNaw1A"
+media_type: youtube
+media: "OC-efvNaw1A"
 filters:
   - engineering
   - realitytv

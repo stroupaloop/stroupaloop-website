@@ -3,8 +3,8 @@ name: General Dynamics Expeditionary Fighting Vehicle
 company: "BarDyne, Inc."
 description: "Managed two concurrent project teams for the US Marine Corps Expeditionary Fighting Vehicle program (led by General Dynamics Amphibious Systems), providing consultation and test services through:<ul><li>On-site inspection and DFMEA testing</li><li>Dynamic modeling and simulation of fluid power systems and subsystems</li><li>Design, construction, and execution of multiple platforms and tests to validate and characterize systems and subsystems</li><li>Presentation of test results and recommendations for implementation in system design</li></ul>"
 link: http://en.wikipedia.org/wiki/Expeditionary_Fighting_Vehicle
-media_type: video
-media: "https://www.youtube.com/embed/Jv9Eq1vopbc"
+media_type: youtube
+media: "Jv9Eq1vopbc"
 filters:
   - fluidpower
   - consulting
