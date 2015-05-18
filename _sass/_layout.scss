@@ -338,13 +338,32 @@ fieldset[disabled] .btn-bluegrey.active {
 #blog{
   padding-top:50px;
   padding-bottom:75px;
+  h2{
+    font-size:30px;
+  }
 }
 // POSTS
 #post{
   padding-top:50px;
-  padding-bottom:75px;
+  padding-bottom:50px;
+  a{
+    color:#d58224;
+    &hover, &:visited, &:focus{
+      color:#d58224;
+    }
+  }
+  .fa{
+    color:#d58224;
+  }
+  #recent-posts{
+    padding-top:25px;
+  }
+  #blog-nav{
+    margin-top:100px;
+  }
 }
 #post-footer{
+  padding-bottom:25px;
   ul{
     padding-left:0px;
     list-style-type: none;

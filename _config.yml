@@ -4,9 +4,11 @@ sub_title: Just your typical asian farnmer.
 email: stroupaloop@gmail.com
 description: Personal landing page of Andrew Stroup. Engineer. Technologist. Entrepreneur.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://localhost:4000/" # the base hostname & protocol for your site
+url: "http://stroupaloop.com" # the base hostname & protocol for your site
 twitter_username: stroupaloop
 github_username:  stroupaloop
+paginate: 10
+paginate: "/blog/page:num/"
 
 # Build settings
 markdown: kramdown
