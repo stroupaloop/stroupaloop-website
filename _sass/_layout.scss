@@ -372,6 +372,9 @@ fieldset[disabled] .btn-bluegrey.active {
       padding-right:10px;
     }
   }
+  #post-footer-right{
+    text-align:right;
+  }
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -486,6 +489,11 @@ fieldset[disabled] .btn-bluegrey.active {
     }
     h5{
       padding-top:10px;
+    }
+  }
+  #post-footer{
+    #post-footer-left, #post-footer-right{
+      text-align:center;
     }
   }
 }

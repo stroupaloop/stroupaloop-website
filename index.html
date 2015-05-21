@@ -632,7 +632,11 @@ layout: default
                       <h4 class="modal-title" id="{{ project.id }}-label"><strong>Project Details</strong></h4>
                     </div>
                     <div class="modal-body">
-                      {% if project.media_type == 'video' %}
+                      {% if project.media_type == 'youtube' %}
+                        <div class="embed-responsive embed-responsive-16by9">
+                          <div class="js-lazyYT" data-youtube-id="{{ project.media }}"></div>
+                        </div>
+                      {% elsif project.media_type == 'vimeo' %}
                         <div class="embed-responsive embed-responsive-16by9">
                           <iframe src="{{ project.media }}" frameborder="0" allowfullscreen></iframe>
                         </div>
