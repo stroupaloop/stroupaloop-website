@@ -5,7 +5,7 @@ date:   2015-05-24
 author: Andrew Stroup
 permalink: blog/discourse-setup-using-aws
 ---
-Following up from my previous post on [PIF Knowledge Sharing and Transfer]({{page.previous.url}}), where I talked about leveraging [Discourse](http://discourse.org) within government, I thought I'd share my experiences setting up a Discourse server within AWS, the nuances with the process, and the issues I've came across.
+Following up from my previous post on [PIF Knowledge Sharing and Transfer]({{page.previous.url}}), where I talked about leveraging [Discourse](http://discourse.org) within government, I thought I'd share my experiences setting up a Discourse server within AWS.
 
 As a refresher, Discourse is an open source long-form chat or forum platform. In this particular use case, we leverage Discourse to support the White House [Presidential Innovation Fellows](https://whitehouse.gov/#innovationfellows) program on knowledge sharing/transfer and collaboration across the federal government.
 
