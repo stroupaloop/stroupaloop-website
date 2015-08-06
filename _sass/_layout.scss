@@ -188,6 +188,24 @@ fieldset[disabled] .btn-bluegrey.active {
     color:#eee;
     font-size:2.9em;
   }
+  .above-scroll-down{
+    height:80px;
+    width:110px;
+    display:block;
+    position:absolute;
+    bottom:10%;
+    right:5%;
+    background-color:#22A39F;
+    text-align:center;
+    z-index:6;
+    padding-top:27px;
+    color:#eee;
+    font-size:18px;
+    &:hover{
+      color:#eee;
+      text-decoration:none;
+    }
+  }
   .scroll-down{
     height:80px;
     width:110px;
