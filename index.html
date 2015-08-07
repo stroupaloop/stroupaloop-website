@@ -30,7 +30,7 @@ layout: default
       <li><a href="#experiences">Experiences</a></li>
       <li><a href="#abilities">Abilities</a></li>
       <li><a href="#projects">Projects</a></li>
-      <li><a href="#press">Press</a></li>
+      <li><a href="#news">News</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
 </nav>
@@ -648,13 +648,13 @@ layout: default
     </div>
   </div>
 </div>
-<div class="container-fluid" id="press">
+<div class="container-fluid" id="news">
   <div class="row">
     <div class="col-sm-8 col-sm-offset-2">
-      <h2 class="text-center">Press</h2>
+      <h2 class="text-center">News</h2>
       <hr/>
           <ul>
-            {% for project_hash in site.data.press %}{% assign project = project_hash[1] %}<li>{{ project.date}} // {{ project.title }} (<a href="{{ project.link }}" target="_blank">{{ project.source }}</a>)</li>{% endfor %}
+            {% for news_hash in site.data.news %}{% assign news = news_hash[1] %}<li>{{ news.date}} // {{ news.title }} (<a href="{{ news.link }}" target="_blank">{{ news.source }}</a>)</li>{% endfor %}
           </ul>
     </div>
   </div>
