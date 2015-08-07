@@ -202,7 +202,7 @@ fieldset[disabled] .btn-bluegrey.active {
     color:#eee;
     font-size:18px;
     &:hover{
-      color:#eee;
+      color:#fff;
       text-decoration:none;
     }
   }
@@ -307,6 +307,15 @@ fieldset[disabled] .btn-bluegrey.active {
     button{
       margin-top:5px;
     }
+  }
+}
+#press{
+  background-color:#eee;
+  padding-top:80px;
+  padding-bottom:125px;
+  hr{
+    margin-top:30px;
+    margin-bottom:30px;
   }
 }
 #contact{

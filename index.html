@@ -30,6 +30,7 @@ layout: default
       <li><a href="#experiences">Experiences</a></li>
       <li><a href="#abilities">Abilities</a></li>
       <li><a href="#projects">Projects</a></li>
+      <li><a href="#press">Press</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
 </nav>
@@ -40,27 +41,20 @@ layout: default
       <h4 class="text-center">Engineer. Technologist. Entreprenuer.</h4>
       <hr/>
       <div class="row" id="sub-profile">
-        <div class="col-lg-7 col-lg-push-5">
+        <div class="col-md-4 col-md-push-8 col-lg-5 col-lg-push-7 ">
           <div class="row">
-            <div class="col-sm-6 col-sm-offset-1" id="headshot">
+            <div class="col-sm-12 visible-sm visible-xs" id="headshot">
               <img src="/images/headshot.png" class="img-responsive img-circle">
             </div>
-            <div class="col-sm-5">
-              <h3>Stats</h3>
-              <p>
-                <strong>Name:</strong><br/>
-                Andrew Stroup<br/>
-                <strong>Location:</strong><br/>
-                Washington, DC<br/><br/>
-                <a href="https://twitter.com/stroupaloop" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false">Follow @stroupaloop</a>
-                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-              </p>
+            <div class="col-md-12 hidden-sm hidden-xs" style="margin-top:25px;">
+              <a class="twitter-timeline" href="https://twitter.com/stroupaloop" data-widget-id="629489797049004032">Tweets by @stroupaloop</a>
+              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
             </div>
           </div>
         </div>
-        <div class="col-lg-5 col-lg-pull-7">
+        <div class="col-md-8 col-md-pull-4 col-lg-7 col-lg-pull-5 ">
           <h3>About</h3>
-          <p>I have over a decade of experience managing large scale efforts spanning both technical and business domains, implementing and practicing agile development to facilitate strong team collaboration and successful product delivery, and rapid prototyping numerous projects from cradle to grave.</p>
+          <p>Andrew Stroup serves as the Director of Product and Technology for the White House Presidential Innovation Fellows, a program focused on recruiting outside industry leaders into government to work on high impact initiatives across the federal government.<br/><br/>Andrew has over a decade of experience building and managing products that span both technical and business domains. He focuses on the implementation and practice of lean, agile development, facilitating strong team collaboration, and successful product delivery. A serial entrepreneur, Andrew has co-founded a security software startup within the identity and access management sector, built giant fighting robots designed for glorious arena combat, and started a non-profit makerspace focused on access to industrial grade tools and education. Andrew was also a contestant on the Discovery Channel's The Big Brain Theory, a team-based reality TV competition where contestants go head-to-head against some of the brightest minds in the country.<br/><br/>Previously, Andrew has served as a DoD civilian focused on the Biosurveillance White House Initiative. His support to the Armed Forces also included oversight of medical countermeasures and Chemical, Biological, Radiological and Nuclear materiel development as well as Joint Strike Fighter integration efforts. Andrew earned dual degrees in Aerospace Engineering and Mechanical Engineering with a focus on Mathematics and Business Management from Oklahoma State University.</p>
         </div>
       </div>
     </div>
@@ -616,9 +610,7 @@ layout: default
       <div class="row">
         <div class="col-sm-8 col-sm-offset-2">
           <div class="row project">
-            {% for project_hash in site.data.projects %}
-              {% assign project = project_hash[1] %}
-              <div class="project-item {% for filter in project.filters %}{{ filter }} {% endfor %} col-sm-3" id="{{ project.id}}" data-toggle="modal" data-target="#{{ project.id }}-modal">
+            {% for project_hash in site.data.projects %}{% assign project = project_hash[1] %}<div class="project-item {% for filter in project.filters %}{{ filter }} {% endfor %} col-sm-3 col-xs-6" id="{{ project.id}}" data-toggle="modal" data-target="#{{ project.id }}-modal">
                 <img src="/images/projects/{{ project.id }}.jpg" class="img-responsive">
               </div>
 
@@ -653,6 +645,17 @@ layout: default
           </div>
         </div>
       </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid" id="press">
+  <div class="row">
+    <div class="col-sm-8 col-sm-offset-2">
+      <h2 class="text-center">Press</h2>
+      <hr/>
+          <ul>
+            {% for project_hash in site.data.press %}{% assign project = project_hash[1] %}<li>{{ project.date}} // {{ project.title }} (<a href="{{ project.link }}" target="_blank">{{ project.source }}</a>)</li>{% endfor %}
+          </ul>
     </div>
   </div>
 </div>
