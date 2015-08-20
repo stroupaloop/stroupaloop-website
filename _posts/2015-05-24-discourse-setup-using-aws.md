@@ -4,6 +4,7 @@ title:  "Discourse setup using AWS"
 date:   2015-05-24
 author: Andrew Stroup
 permalink: blog/discourse-setup-using-aws
+img: images/posts/discourse.png
 ---
 Following up from my previous post on [PIF Knowledge Sharing and Transfer]({{page.previous.url}}), where I talked about leveraging [Discourse](http://discourse.org) within government, I thought I'd share my experiences setting up a Discourse server within AWS.
 

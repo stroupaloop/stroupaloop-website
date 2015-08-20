@@ -4,7 +4,10 @@ title:  "How Skynet will actually happen"
 date:  2015-08-04
 author: Andrew Stroup
 permalink: blog/how-skynet-will-actually-happen
+img: images/posts/skynet.jpg
 ---
+<img src="{{ baseurl }}/images/posts/skyney.jpg" class="img-responsive">
+
 Back in December, I was on a phone interview for an article with The Daily Dot called [Stephen Hawking thinks artificial intelligence will destroy us](http://www.dailydot.com/technology/stephen-hawking-artificial-intelligence-civilization/), where they asked my opinion on if I thought artificial intelligence would destroy humanity if left uncheck. The interview came about because of my involvement with co-founding [MegaBots, Inc.](http://megabots.com), a robotics startup focused on building a new sports league of giant fighting robots.
 
 In the article I side with Hawking's opinion (who am I to argue with the smartest person on the planet?), but caveated that "it really comes down to how companies and people utilize the technology that will dictate its future". The article covers various roboticist's opinions on the topic, covering the spectrum of academia and private sector opinions.

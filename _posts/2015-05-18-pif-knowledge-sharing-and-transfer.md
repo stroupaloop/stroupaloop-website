@@ -4,6 +4,7 @@ title:  "PIF Knowledge Sharing and Transfer"
 date:   2015-05-18
 author: Andrew Stroup
 permalink: blog/pif-knowledge-sharing-and-transfer
+img: images/posts/pif-hero.jpg
 ---
 One of the recent changes we've made to the White House [Presidential Innovation Fellows](https://whitehouse.gov/#innovationfellows) program is a transition to a continuous deployment model instead of a yearly call for applications and selection of fellows. The program shouldn't limit itself to once a year recruitment, but instead match and deploy PIFs with projects at the 'speed of need' as Garren Givens likes to call it. It's silly to think that if an amazing candidate from the private sector wants to serve as an agent for change within government they have to wait an entire year if they miss the application window.
 

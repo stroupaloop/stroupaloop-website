@@ -4,6 +4,7 @@ title:  "The Great Korean GYPSY Migration"
 date:  2015-06-20
 author: Andrew Stroup
 permalink: blog/great-korean-wildflower-migration
+img: images/posts/korea-migration-sign.jpg
 ---
 A little while back I read an article published in the New York Times titled *[Why a Generation of Adoptees Is Returning to South Korea](http://www.nytimes.com/2015/01/18/magazine/why-a-generation-of-adoptees-is-returning-to-south-korea.html?_r=0)*. It's a story about various adopted Koreans and their choice to leave their American families, lives and friends to start anew in South Korea.
 
