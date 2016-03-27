@@ -12,7 +12,7 @@ My housemate and I were sitting in our kitchen eating and catching up when he me
 
 <img src="{{ baseurl }}/images/posts/wok-wokmon.jpg" class="img-responsive">
 
-After quickly perusing the website (specifically the News section), the product was successfully crowd-funded ([Crowdzu.com](https://www.crowdzu.com/funding/campaigns/19/wokmon/)) back in the Summer of 2014. A year and a half later, there has been no deliverable product to its backers or any additional pre-orders. Additionally, at the cost of $79.95, the product was an overpriced piece of kitchenware. This is where a little engineering training and elbow grease comes in.
+After quickly perusing the website (specifically the News section), the product was crowd-funded ([Crowdzu.com](https://www.crowdzu.com/funding/campaigns/19/wokmon/)) back in the Summer of 2014. A year and a half later, there has been no deliverable product to its backers or any additional pre-orders. Additionally, at the cost of $79.95, the product was an overpriced piece of kitchenware. This is where a little engineering training and elbow grease comes in.
 
 <img src="{{ baseurl }}/images/posts/wok-wokmon-pricing.jpg" class="img-responsive">
 
@@ -20,7 +20,7 @@ Being a little brash and opinionated in the comfort of my own home, my first com
 
 You know what meets those requirements? **A stainless steel cooking bowl.**
 
-Turn the right sized cooking bowl upside down, plasma cut the top and bottom, and call it a day. Obviously being a good engineer I did a quick spot check and looked up the material properties of stainless steel (aka googled 'stainless steel temperature limit'), which returned 1700-2100F depending on the grade. This sold me that a cooking bowl was 'good enough' and I could crank one out in an hour.
+Turn the right sized cooking bowl upside down, plasma cut the top and bottom, and call it a day. Obviously being a good engineer I did a quick spot check and looked up the material properties of stainless steel (aka googled 'stainless steel temperature limit'), which returned 1700-2100F depending on the grade. This told me that a cooking bowl was 'good enough' and I could crank one out in an hour.
 
 Following the build and break shit fast approach, we decided to make one that night, a 9PM game time decision. Fortunately, there was a 24-hour [TechShop](http://www.techshop.ws/) nearby (forgive me makerspace community) and a [Bed, Bath and Beyond](http://www.bedbathandbeyond.com/) open until 10PM.
 
@@ -32,7 +32,7 @@ Before heading out we took a quick measurement of our range, which were the foll
 - additional clearance around the burner + base: 7/8" radius
 - grill height (internal): 2 1/4"
 
-With those measurements, we headed to the Bed, Bath and Beyond and found a cheap (and surprisingly thick, 0.0625" gauge) stainless steel 1.5L mixing bowl, which had a radius slightly larger than 6". Being convinced it was once again 'good enough,' we grabbed two (I always bet I screw up the first one) and headed to TechShop.
+With those measurements, we headed to the Bed, Bath and Beyond and found a cheap (and surprisingly thick, 0.0625") stainless steel 1.5L mixing bowl, which had a radius slightly larger than 6". Being convinced it was once again 'good enough,' we grabbed two (I always bet I screw up the first one) and headed to TechShop.
 
 <img src="{{ baseurl }}/images/posts/wok-bowl.jpg" class="img-responsive">
 

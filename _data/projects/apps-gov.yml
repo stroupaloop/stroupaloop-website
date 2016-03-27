@@ -1,0 +1,16 @@
+id: apps-gov
+name: Apps.Gov
+company: "Presidential Innovation Fellows"
+description: |
+  A Presidential Innovation Fellows (PIF) team (Andrew Stroup and John Trobough), in 
+  partnership with the General Services Administration (GSA), launched Apps.Gov, an 
+  active marketplace where government employees can more easily explore and procure 
+  innovative cloud-based applications. Through apps.gov, government employees will be 
+  able to asses products, security reviews and certifications, and contract vehicles for 
+  rapid procurement. Simultaneously, technology providers will be able to submit their 
+  products and leverage apps.gov as a resource for entering the federal government vertical. 
+link: https://apps.gov
+media_type: img
+media: "apps-gov.png"
+filters:
+  - code
