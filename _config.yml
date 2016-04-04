@@ -10,3 +10,9 @@ github_username:  stroupaloop
 
 # Build settings
 markdown: kramdown
+
+exclude:
+  - s3_website.yml
+  - README.md
+  - Gemfile
+  - Gemfile.lock
