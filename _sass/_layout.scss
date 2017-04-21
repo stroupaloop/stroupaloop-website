@@ -471,6 +471,10 @@ fieldset[disabled] .btn-bluegrey.active {
 
 /* Phones only (767px and less) */
 @media (max-width: 767px) {
+  
+  #left-panel{
+    height: 75vh;
+  }
   /*.navbar{
     left:0px;
     width:100%;
