@@ -39,7 +39,7 @@ hr{
 
 
 
-.badge{
+/*.badge{
   color:#eee;
   font-weight:300;
 }
@@ -161,10 +161,26 @@ fieldset[disabled] .btn-bluegrey.active {
 .fixed .navbar{
   position: fixed;
   top: 60px;
-}
+}*/
 
 // content
-#top{
+#left-panel{
+  height:100vh;
+  background:linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("/images/background.jpg");
+  background-attachment:scroll;
+  background-repeat:no-repeat;
+  background-position:center bottom;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+#right-panel{
+  height:100vh;
+  overflow-y: auto;
+}
+/*#top{
   min-height:500px;
   background-image:url("/images/background-image.jpg");
   background-attachment:scroll;
@@ -360,7 +376,7 @@ fieldset[disabled] .btn-bluegrey.active {
       }
     }
   }
-}
+}*/
 
 // BLOG HOME
 #blog{
@@ -411,12 +427,12 @@ fieldset[disabled] .btn-bluegrey.active {
 
 /* Large and Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {  
-  #profile{
+  /*#profile{
     img{
       width:100%;
       max-width:300px;
     }
-  }
+  }*/
   #post{
     padding-left:150px;
     padding-right:150px;
@@ -440,7 +456,7 @@ fieldset[disabled] .btn-bluegrey.active {
 
 /* Small devices and Phones (less than 991px) */
 @media (max-width:991px) {
-  #profile{
+  /*#profile{
     #sub-profile{
       text-align: center;
     }
@@ -450,12 +466,12 @@ fieldset[disabled] .btn-bluegrey.active {
       margin-right:auto;
       max-width:250px;
     }
-  }
+  }*/
 }
 
 /* Phones only (767px and less) */
 @media (max-width: 767px) {
-  .navbar{
+  /*.navbar{
     left:0px;
     width:100%;
   }
@@ -526,7 +542,7 @@ fieldset[disabled] .btn-bluegrey.active {
     h5{
       padding-top:10px;
     }
-  }
+  }*/
   #post-footer{
     #post-footer-left, #post-footer-right{
       text-align:center;
