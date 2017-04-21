@@ -179,6 +179,18 @@ fieldset[disabled] .btn-bluegrey.active {
 #right-panel{
   height:100vh;
   overflow-y: auto;
+  padding:0;
+  #quote{
+    padding: 1em 2em 1em 2em;
+    text-align:center;
+    background-color:black;
+    h4{
+      color: #eee;
+    }
+  }
+  #journey{
+    padding: 1em 2em 1em 2em;
+  }
 }
 /*#top{
   min-height:500px;
@@ -471,9 +483,9 @@ fieldset[disabled] .btn-bluegrey.active {
 
 /* Phones only (767px and less) */
 @media (max-width: 767px) {
-  
+
   #left-panel{
-    height: 75vh;
+    height: 60vh;
   }
   /*.navbar{
     left:0px;
