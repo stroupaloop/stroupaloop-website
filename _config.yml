@@ -1,12 +1,12 @@
 # Site settings
 title: Andrew Stroup
-sub_title: Just your typical asian farmer.
+sub_title: made in Korea, raised in cowboy boots
 email: stroupaloop@gmail.com
 description: The personal landing page and blog of Andrew Stroup
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://stroupaloop.com" # the base hostname & protocol for your site
 twitter_username: stroupaloop
-github_username:  stroupaloop
+github_username: stroupaloop
 
 # Build settings
 markdown: kramdown
