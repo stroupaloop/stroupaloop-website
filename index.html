@@ -13,6 +13,24 @@ layout: default
         <h4><em>"The more I live, the more I learn. The more I learn, the more I realize, the less I know." --Michel Legrand</em></h4>
       </div>
       <div id="journey">
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+          {% for journey_hash in site.data.journey %}{% assign journey = journey_hash[1] %}
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading-{{ journey.id}}">
+                <h4 class="panel-title">
+                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-{{ journey.id }}" aria-expanded="false" aria-controls="collapse-{{ journey.id }}">
+                    {{ journey.title }}
+                  </a>
+                </h4>
+              </div>
+              <div id="collapse-{{ journey.id }}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-{{ journey.id }}">
+                <div class="panel-body">
+                  {{ journey.content }}
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
         <h1>WORLD</h1>
         <h1>WORLD</h1>
         <h1>WORLD</h1>
