@@ -177,7 +177,6 @@ fieldset[disabled] .btn-bluegrey.active {
 
 }
 #right-panel{
-  height:100vh;
   overflow-y: auto;
   padding:0;
   box-shadow: -10px 0px 50px -15px #000;
@@ -446,6 +445,9 @@ fieldset[disabled] .btn-bluegrey.active {
       max-width:300px;
     }
   }*/
+  #right-panel{
+    height:100vh;
+  }
   #post{
     padding-left:150px;
     padding-right:150px;
@@ -487,6 +489,9 @@ fieldset[disabled] .btn-bluegrey.active {
 
   #left-panel{
     height: 60vh;
+  }
+  #right-panel{
+    overflow-y: auto;
   }
   /*.navbar{
     left:0px;
